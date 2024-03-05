@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/NameET"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_margin="18dp"
+        android:layout_marginStart="2dp"
+        android:ems="10"
+        android:hint="BeneficieryName"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColor="#F4E4E4"
+        android:textColorHint="#F4E4E4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <EditText
+        android:id="@+id/AddressET"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_margin="18dp"
+        android:ems="10"
+        android:hint="Beneficiery Address"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColor="#F4E4E4"
+        android:textColorHint="#F4E4E4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <EditText
+        android:id="@+id/selectDonor"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_margin="18dp"
+        android:ems="10"
+        android:hint=" Select products from list"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColor="#F4E4E4"
+        android:textColorHint="#F4E4E4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/userDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#F4E4E4"
+        android:textSize="16sp"
+        android:paddingStart="36dp"
+        android:gravity="start"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/checkoutbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="#BC6B87"
+        android:text="Checkout"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:background="@android:color/transparent"
+            android:paddingStart="16dp"
+            android:clipToPadding="false" />
+
+    </RelativeLayout>
+</LinearLayout>
