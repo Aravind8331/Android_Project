@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
-
 import com.example.goodwillapp.common.GmailValidator;
 import com.google.android.material.textfield.TextInputEditText;
 
@@ -67,7 +66,6 @@ public class Signin extends AppCompatActivity {
             }
         });
     }
-
     private void checkLogin(String emailID, String password) {
 
         Intent intent = new Intent(Signin.this, Welcome.class);

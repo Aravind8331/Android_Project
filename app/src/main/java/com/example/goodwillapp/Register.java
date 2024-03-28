@@ -8,10 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
-
 import com.example.goodwillapp.common.GmailValidator;
 import com.google.android.material.textfield.TextInputEditText;
-
 public class Register extends AppCompatActivity {
 
     Button id_register;
