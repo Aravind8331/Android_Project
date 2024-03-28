@@ -1,117 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp">
+    android:orientation="vertical"
+    android:padding="@dimen/_20sdp">
+
+    <ImageView
+        android:id="@+id/id_logout"
+        android:layout_width="@dimen/_30sdp"
+        android:src="@drawable/baseline_logout_24"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_height="@dimen/_30sdp"/>
 
     <TextView
-        android:id="@+id/restaurant_name"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:fontFamily="sans-serif"
         android:text="Welcome"
-        android:textColor="@color/design_default_color_primary_variant"
-        android:textSize="20sp" />
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:id="@+id/tx_welcome"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="wrap_content"/>
 
-    <TextView
-        android:id="@+id/starters_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/restaurant_name"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:text="Contributor" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tx_welcome"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="@dimen/_170sdp"
+            android:layout_margin="@dimen/_16sdp"
 
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card_view_starters"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/restaurant_name"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <ImageView
+            app:cardCornerRadius="@dimen/_22sdp"
+            app:cardElevation="@dimen/_16sdp">
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/contribute"></ImageView>
-
-            <TextView
-                android:id="@+id/text_view_starters"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/id_layoutBene"
                 android:layout_gravity="center"
-                android:layout_margin="8dp"
-                android:fontFamily="sans-serif-black"
-                android:textSize="18sp"
-                android:text="Contributor" />
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/id_beneficiary"
+                    android:layout_width="@dimen/_100sdp"
+                    android:scaleType="fitXY"
+                    android:elevation="@dimen/_10sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:src="@drawable/beneficiary"
+                    app:shapeAppearanceOverlay="@style/roundedCorner"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Beneficiary"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="@dimen/_16sdp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
 
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-    <Button
-        android:id="@+id/contrbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/card_view_starters"
-        android:layout_centerHorizontal="true"
-        android:text="Click here">
-
-    </Button>
-
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/main_card_view"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/card_view_starters"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <ImageView
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="@dimen/_170sdp"
+            android:layout_margin="@dimen/_16sdp"
+            app:cardCornerRadius="@dimen/_22sdp"
+            app:cardElevation="@dimen/_16sdp">
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/beneficiary"></ImageView>
-
-            <TextView
-                android:id="@+id/main_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:orientation="vertical"
                 android:layout_gravity="center"
-                android:layout_margin="8dp"
-                android:fontFamily="sans-serif-black"
-                android:textSize="18sp"
-                android:text="Beneficiary" />
+                android:id="@+id/layoutCont"
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/id_contributor"
+                    android:layout_width="@dimen/_100sdp"
+                    android:scaleType="fitXY"
+                    android:elevation="@dimen/_10sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:src="@drawable/contribute"
+                    app:shapeAppearanceOverlay="@style/roundedCorner"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Contributor"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="@dimen/_16sdp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
 
-        </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
 
-    </androidx.cardview.widget.CardView>
-
-    <Button
-        android:id="@+id/benefbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/main_card_view"
-        android:layout_centerHorizontal="true"
-        android:text="Click here">
-
-    </Button>
+    </LinearLayout>
 
 
-</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
