@@ -6,6 +6,8 @@ import android.os.Bundle;
 
 public class Contributor extends AppCompatActivity {
 
+
+    //Overrides onCreate method
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

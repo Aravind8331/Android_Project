@@ -10,6 +10,11 @@
           <theme>@style/Theme.GoodWillApp</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contributor.xml">
+        <config>
+          <theme>@style/Theme.GoodWillApp</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
@@ -19,6 +24,7 @@
     <list default="true" id="07a5b762-d757-4970-8798-3328729c1009" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/Contributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/Contributor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_beneficiary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_beneficiary.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contributor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contributor.xml" afterDir="false" />
     </list>
