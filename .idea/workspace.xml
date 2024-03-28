@@ -30,7 +30,17 @@
           <theme>@style/Theme.GoodWillApp</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
+        <config>
+          <theme>@style/Theme.GoodWillApp</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml">
+        <config>
+          <theme>@style/Theme.GoodWillApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_layout.xml">
         <config>
           <theme>@style/Theme.GoodWillApp</theme>
         </config>
@@ -42,7 +52,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07a5b762-d757-4970-8798-3328729c1009" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/common/GmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +124,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2eGQxWu3my88MCwV9DRswVV91Rv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -124,7 +138,7 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/S566629/Desktop/Webapps-repos/44563-webapps-f23-assignment3-S566629/GoodWill_APP-Project/app/src/main/java/com/example/goodwillapp"
+    "last_opened_file_path": "C:/Users/S566629/Desktop/Webapps-repos/44563-webapps-f23-assignment3-S566629/GoodWill_APP-Project/app/src/main/res/layout"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -132,6 +146,8 @@
       <recent name="com.example.goodwillapp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\S566629\Desktop\Webapps-repos\44563-webapps-f23-assignment3-S566629\GoodWill_APP-Project\app\src\main\res\layout" />
+      <recent name="C:\Users\S566629\Desktop\Webapps-repos\44563-webapps-f23-assignment3-S566629\GoodWill_APP-Project\app\src\main\res\drawable" />
       <recent name="C:\Users\S566629\Desktop\Webapps-repos\44563-webapps-f23-assignment3-S566629\GoodWill_APP-Project\app\src\main\java\com\example\goodwillapp" />
     </key>
   </component>
