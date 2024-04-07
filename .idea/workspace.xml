@@ -35,6 +35,11 @@
           <theme>@style/Theme.GoodWillApp</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+        <config>
+          <theme>@style/Theme.GoodWillApp</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml">
         <config>
           <theme>@style/Theme.GoodWillApp</theme>
@@ -52,17 +57,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07a5b762-d757-4970-8798-3328729c1009" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/AvailableAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/AvailableAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/ContributorDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/ContributorDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +151,7 @@
     "SHOW_ALL_PROCESSES": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/S566629/Desktop/do/GoodWill_APP-Project"
+    "last_opened_file_path": "C:/Users/S566629/Desktop/do/GoodWill_APP-Project/app/src/main/res/drawable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -160,9 +159,15 @@
       <recent name="com.example.goodwillapp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\S566629\Desktop\do\GoodWill_APP-Project\app\src\main\res\drawable" />
+      <recent name="C:\Users\S566629\Desktop\do\GoodWill_APP-Project\app\src\main\res\layout" />
+      <recent name="C:\Users\S566629\Desktop\do\GoodWill_APP-Project\app\src\main\java\com\example\goodwillapp\common" />
       <recent name="C:\Users\S566629\Desktop\Webapps-repos\44563-webapps-f23-assignment3-S566629\GoodWill_APP-Project\app\src\main\res\layout" />
       <recent name="C:\Users\S566629\Desktop\Webapps-repos\44563-webapps-f23-assignment3-S566629\GoodWill_APP-Project\app\src\main\res\drawable" />
-      <recent name="C:\Users\S566629\Desktop\Webapps-repos\44563-webapps-f23-assignment3-S566629\GoodWill_APP-Project\app\src\main\java\com\example\goodwillapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.goodwillapp" />
+      <recent name="com.example.goodwillapp.common" />
     </key>
   </component>
   <component name="RunManager">
