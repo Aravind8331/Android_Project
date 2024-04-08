@@ -35,6 +35,11 @@
           <theme>@style/Theme.GoodWillApp</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+        <config>
+          <theme>@style/Theme.GoodWillApp</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml">
         <config>
           <theme>@style/Theme.GoodWillApp</theme>
@@ -54,6 +59,7 @@
     <list default="true" id="07a5b762-d757-4970-8798-3328729c1009" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +117,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
@@ -133,12 +140,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DEBUGGABLE_DEVICE": "oneplus-de2117-847f715a",
+    "DEBUGGABLE_PROCESS": "com.example.goodwillapp",
+    "DEBUGGER_ID": "Auto",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHOW_ALL_PROCESSES": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/S566629/Desktop/Webapps-repos/44563-webapps-f23-assignment3-S566629/GoodWill_APP-Project/app/src/main/res/layout"
+    "last_opened_file_path": "C:/Users/S566629/Desktop/do/GoodWill_APP-Project/app/src/main/res/drawable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -146,9 +157,15 @@
       <recent name="com.example.goodwillapp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\S566629\Desktop\do\GoodWill_APP-Project\app\src\main\res\drawable" />
+      <recent name="C:\Users\S566629\Desktop\do\GoodWill_APP-Project\app\src\main\res\layout" />
+      <recent name="C:\Users\S566629\Desktop\do\GoodWill_APP-Project\app\src\main\java\com\example\goodwillapp\common" />
       <recent name="C:\Users\S566629\Desktop\Webapps-repos\44563-webapps-f23-assignment3-S566629\GoodWill_APP-Project\app\src\main\res\layout" />
       <recent name="C:\Users\S566629\Desktop\Webapps-repos\44563-webapps-f23-assignment3-S566629\GoodWill_APP-Project\app\src\main\res\drawable" />
-      <recent name="C:\Users\S566629\Desktop\Webapps-repos\44563-webapps-f23-assignment3-S566629\GoodWill_APP-Project\app\src\main\java\com\example\goodwillapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.goodwillapp" />
+      <recent name="com.example.goodwillapp.common" />
     </key>
   </component>
   <component name="RunManager">
@@ -230,5 +247,21 @@
       <updated>1711528683474</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/Signin.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/Signin.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

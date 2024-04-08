@@ -64,6 +64,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/id_password"
                     android:layout_width="match_parent"
+                    android:inputType="textPassword"
                     android:layout_height="wrap_content"
                     android:lines="1"
                     android:hint="Enter Password" />
@@ -78,6 +79,7 @@
                     android:id="@+id/id_confirmpassword"
                     android:layout_width="match_parent"
                     android:lines="1"
+                    android:inputType="textPassword"
                     android:layout_height="wrap_content"
                     android:hint="Enter Confirm Password" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -108,13 +110,13 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Don't have an account? "
+                    android:text="Do you have an account? "
                     android:textAlignment="center"
                     android:textSize="@dimen/_10sdp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="SignUp Now"
+                    android:text="SignIN Now"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:textAlignment="center"
