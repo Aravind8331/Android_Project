@@ -16,4 +16,6 @@
         android:src="@drawable/logooo"
         android:layout_height="@dimen/_200sdp"/>
 
+        //layout for SplashActivity
+
 </androidx.constraintlayout.widget.ConstraintLayout>
