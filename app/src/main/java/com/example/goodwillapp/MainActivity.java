@@ -1,8 +1,9 @@
 package com.example.goodwillapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-import android.widget.Button;
+
 import android.os.Bundle;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
