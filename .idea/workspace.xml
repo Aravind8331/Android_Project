@@ -40,11 +40,6 @@
           <theme>@style/Theme.GoodWillApp</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_selcf2.xml">
-        <config>
-          <theme>@style/Theme.GoodWillApp</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
         <config>
           <theme>@style/Theme.GoodWillApp</theme>
@@ -67,16 +62,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07a5b762-d757-4970-8798-3328729c1009" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/AvailableAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/AvailableAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/Contributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/Contributor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_beneficiary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_beneficiary.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contributor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contributor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_selcf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_selcf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_selcf2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/ContributorDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/ContributorDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/common/GmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/goodwillapp/common/GmailValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +86,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\S567081\.android\avd\Medium_Phone_API_26.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[847f715a]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -167,7 +166,7 @@
     "SHOW_ALL_PROCESSES": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/S567081/Desktop/MileStone3/GoodWill_APP-Project"
+    "last_opened_file_path": "C:/Users/S566629/Desktop/Gitcode/GoodWill_APP-Project/app"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -175,11 +174,11 @@
       <recent name="com.example.goodwillapp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\S566629\Desktop\Gitcode\GoodWill_APP-Project\app" />
       <recent name="C:\Users\S566629\Desktop\do\GoodWill_APP-Project\app\src\main\res\drawable" />
       <recent name="C:\Users\S566629\Desktop\do\GoodWill_APP-Project\app\src\main\res\layout" />
       <recent name="C:\Users\S566629\Desktop\do\GoodWill_APP-Project\app\src\main\java\com\example\goodwillapp\common" />
       <recent name="C:\Users\S566629\Desktop\Webapps-repos\44563-webapps-f23-assignment3-S566629\GoodWill_APP-Project\app\src\main\res\layout" />
-      <recent name="C:\Users\S566629\Desktop\Webapps-repos\44563-webapps-f23-assignment3-S566629\GoodWill_APP-Project\app\src\main\res\drawable" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.goodwillapp" />

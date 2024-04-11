@@ -16,6 +16,65 @@ import com.google.android.material.imageview.ShapeableImageView;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
+/*
+
+public class AvailableAdapter extends RecyclerView.Adapter<AvailableAdapter.ViewHolder> {
+
+    // Define your data list here
+    private List<ContributorModel> dataList = new ArrayList<>();
+    Beneficiary beneficiary;
+    public AvailableAdapter(Beneficiary beneficiarys, List<ContributorModel> items) {
+          beneficiary=beneficiarys;
+        dataList.clear();
+         dataList.addAll(items);
+    }
+
+
+    @NonNull
+    @Override
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, parent, false);
+        return new ViewHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        holder.bind(dataList.get(position));
+
+        holder.id_beneficiary.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(beneficiary, ContributorDetailsActivity.class);
+                beneficiary.startActivity(intent);
+
+            }
+        });
+    }
+
+    @Override
+    public int getItemCount() {
+        return dataList.size();
+    }
+
+    // ViewHolder class to hold the views
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        private TextView textView;
+        private ShapeableImageView id_beneficiary;
+
+        public ViewHolder(@NonNull View itemView) {
+            super(itemView);
+            textView = itemView.findViewById(R.id.id_itenamerec);
+            id_beneficiary = itemView.findViewById(R.id.id_beneficiary);
+        }
+
+        public void bind(ContributorModel item) {
+            textView.setText(item.getItemName());
+        }
+    }
+}
+*/
+
+
 public class AvailableAdapter extends RecyclerView.Adapter<AvailableAdapter.ViewHolder> {
 
     private List<ContributorModel> dataList;

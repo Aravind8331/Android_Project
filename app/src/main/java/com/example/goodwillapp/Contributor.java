@@ -220,18 +220,18 @@ public class Contributor extends AppCompatActivity {
 
     private void saveContributor(String emailID, String username, String mobileNumber, String itemName, String address, String itemType, String itemCondition) {
 
-        FirebaseAuth mAuth =FirebaseAuth.getInstance();
+        FirebaseAuth mAuth = FirebaseAuth.getInstance();
         String userId = mAuth.getCurrentUser().getUid();
         progressDialog = new ProgressDialog(Contributor.this);
         progressDialog.setMessage("Saving Data...");
         progressDialog.setCancelable(false);
         progressDialog.show();
         DatabaseReference newDataRef = databaseRef.child("contributors").push();
-        Log.d("USERKEY",newDataRef.getKey().toString());
+        Log.d("USERKEY", newDataRef.getKey().toString());
         String dbKey = newDataRef.getKey();
         DatabaseReference selfContributor = databaseRefSelf.child("contributorSelf").child(userId).push();
 
-        ContributorModel model = new ContributorModel(username, itemName, itemType, itemCondition, imagePath, emailID, address, mobileNumber,dbKey);
+        ContributorModel model = new ContributorModel(username, itemName, itemType, itemCondition, imagePath, emailID, address, mobileNumber, dbKey);
 
         newDataRef.setValue(model)
                 .addOnSuccessListener(aVoid -> {
@@ -360,3 +360,5 @@ public class Contributor extends AppCompatActivity {
         bt_condition = findViewById(R.id.bt_condition);
 
     }
+
+}

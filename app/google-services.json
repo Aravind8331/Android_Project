@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "987637908262",
+    "firebase_url": "https://rsanchat2.firebaseio.com",
+    "project_id": "rsanchat2",
+    "storage_bucket": "rsanchat2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987637908262:android:f233fcb705a32d3920f7e7",
+        "android_client_info": {
+          "package_name": "com.android.aahaarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987637908262-emv6frb146a2oseaoa0jpk04q78h6rrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHsLnIZ7O23Hwagt63fzB1KqfDj_Lyqxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987637908262-emv6frb146a2oseaoa0jpk04q78h6rrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987637908262:android:189402e290ad617920f7e7",
+        "android_client_info": {
+          "package_name": "com.android.mycontribute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987637908262-emv6frb146a2oseaoa0jpk04q78h6rrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHsLnIZ7O23Hwagt63fzB1KqfDj_Lyqxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987637908262-emv6frb146a2oseaoa0jpk04q78h6rrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987637908262:android:2abf8cae30f327c720f7e7",
+        "android_client_info": {
+          "package_name": "com.example.goodwillapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987637908262-emv6frb146a2oseaoa0jpk04q78h6rrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHsLnIZ7O23Hwagt63fzB1KqfDj_Lyqxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987637908262-emv6frb146a2oseaoa0jpk04q78h6rrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987637908262:android:4b16b381e312445920f7e7",
+        "android_client_info": {
+          "package_name": "vip.com.vipmeetings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987637908262-emv6frb146a2oseaoa0jpk04q78h6rrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHsLnIZ7O23Hwagt63fzB1KqfDj_Lyqxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987637908262-emv6frb146a2oseaoa0jpk04q78h6rrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

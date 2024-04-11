@@ -102,4 +102,4 @@ public class ContributorDetailsActivity extends AppCompatActivity {
             }
         });
     }
-}s
+}
