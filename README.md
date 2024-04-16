@@ -11,7 +11,7 @@
 Test credentials:<br>
 USer1(Contributer) - Chanti@gmail.com<br>
 Password - Chanti@1234<br>
-User2(Beneficiary) - Vikaram@gmail.com<br>
+User2(Beneficiary) - Vikram@gmail.com<br>
 Password- Vikram@1234<br>
 
 **APK**- app-debug.apk<br>
